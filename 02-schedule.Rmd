@@ -1,0 +1,36 @@
+# Timeline
+
+|           | Topic                                                     | Days |
+|-----------|-----------------------------------------------------------|-----:|
+| September | Limits & Continuity                                       | 23   |
+| October   | Differentiation: Basics                                   | 14   |
+| November  | Differentiation: Composite, Implicit, & Inverse Functions | 9    |
+| December  | Differentiation: Contextual Applications                  | 11   |
+| December  | Differentiation: Analytical Applications                  | 16   |
+| Jan/Feb   | Integration                                               | 20   |
+| March     | Differential Equations                                    | 9    |
+| Mar/Apr   | Integration: Applications                                 | 20   |
+
+# Schedule{#sch}
+
+## September{-}
+
+### Sept. 2{-}
+
+> **1.1** Introducing Calculus: Can Change Occur at an Instant?
+
+> `CHA-1.A` Interpret the rate of change at an instant in terms of average rates of change over intervals containing that instant.
+
+**Homework**
+  
+  * Follow instructions in Section \@ref(khan) to join Mr. Li's designated Khan Academy classroom for AP Calculus AB.
+  * Khan Academy:
+  * Textbook:
+
+
+### Sept. 3{-}
+
+## October{-}
+## November{-}
+## December{-}
+
