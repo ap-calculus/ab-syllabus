@@ -36,7 +36,9 @@
 \titleformat{\subsection}
    {\normalfont\fontsize{16}{18}\bfseries}{\thesubsection}{1em}{}
 \titleformat{\subsubsection}
-   {\normalfont\fontsize{14}{16}\bfseries\sffamily}{}{1em}{}
+   {\normalfont\fontsize{14}{16}\bfseries}{\thesubsubsection}{1em}{}
+% \titleformat{\subsubsection}
+%    {\normalfont\fontsize{14}{16}\bfseries\sffamily}{}{1em}{}
 
 \usepackage{xcolor}
 \usepackage{hyperref}
@@ -46,6 +48,8 @@
     linkcolor = {black},
     citecolor = {black},
     urlcolor = {blue},
+    citecolor = {blue},
+    anchorcolor = {blue},
     bookmarksopen = false,
     bookmarksdepth=4
 }

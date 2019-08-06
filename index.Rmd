@@ -1,7 +1,7 @@
 --- 
-title: "AP^&reg;^ Calculus AB Syllabus"
-author: "Mr. Li"
-date: "`r Sys.Date()`"
+title: "AP^&reg;^ Calculus AB & BC Syllabus"
+author: ""
+date: \emph{2019--2020}
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: article
@@ -11,7 +11,7 @@ bibliography: [book.bib, packages.bib]
 csl: apa.csl
 link-citations: yes
 github-repo: ap-calculus/ab-syllabus
-description: "This notebook includes a syllabus and detailed course schedule for AP Calculus AB."
+description: "This notebook includes a syllabus and detailed course schedule for AP Calculus AB and BC."
 always_allow_html: yes
 classoption: fleqn
 subparagraph: yes
@@ -56,15 +56,13 @@ biblio <- bibtex::read.bib(file="book.bib")
 
 **Teacher**: Mr. Li
 
-**E-mail**:
+**Course Website**: [https://ap-calculus.github.io](https://ap-calculus.github.io){target="_blank"}
 
-**Course Website**: https://scholar.netlify.com/calc-ab
-
-**Office Hours**: TBD
+**Office Hours**: [https://ap-calculus.github.io/#officehours](https://ap-calculus.github.io/#officehours){target="_blank"}
 
   * You are welcome to stop by anytime during scheduled office hours without an appointment.
   * If I need to reschedule office hours, I will send an e-mail to the class.
-  * If you cannot make it to my office hours, please [schedule an appointment](https://scholar.netlify.com/#contact). If none of the time slots work for you, check with me after class so we can arrange a time to meet.
+  * If you cannot make it to my office hours, please [schedule an appointment](https://ap-calculus.github.io/#officehours){target="_blank"}. If none of the time slots work for you, check with me after class so we can arrange a time to meet.
 
 
 
@@ -73,6 +71,8 @@ biblio <- bibtex::read.bib(file="book.bib")
 **Prerequisite:** IGCSE Additional Mathematics or the equivalent of Trigonometry/Pre-Calculus
 
 AP^&reg;^ Calculus AB^[AP is a registered trademark of the College Board, which does not endorse and was not involved in the production of this document or any part of this website.] is a one-year course that covers the first semester of college calculus. We will cover all topics covered in the AP Calculus AB exam, including limits, continuity, differentiation, integration, and major theorems and applications of calculus.
+
+AP^&reg;^ Calculus BC covers the first two semesters of college calculus. We will cover all AB topics at an accelerated pace as well as BC-only topics, including parametric equations, polar coordinates, and infinite series.
 
 ## Course Objectives
 

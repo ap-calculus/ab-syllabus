@@ -1,36 +1,43 @@
-# Timeline
+\newpage
 
-|           | Topic                                                     | Days |
-|-----------|-----------------------------------------------------------|-----:|
-| September | Limits & Continuity                                       | 23   |
-| October   | Differentiation: Basics                                   | 14   |
-| November  | Differentiation: Composite, Implicit, & Inverse Functions | 9    |
-| December  | Differentiation: Contextual Applications                  | 11   |
-| December  | Differentiation: Analytical Applications                  | 16   |
-| Jan/Feb   | Integration                                               | 20   |
-| March     | Differential Equations                                    | 9    |
-| Mar/Apr   | Integration: Applications                                 | 20   |
+# Timeline (Tentative Dates)
 
-# Schedule{#sch}
+| Unit| Topic                                            | AB           | BC       |
+|-----|--------------------------------------------------|-------------:|---------:|
+| 1 | Limits & Continuity                                | 9/2--9/18    |9/2--9/13
+| 2 | Differentiation: Basics                            | 9/19--9/30   |9/16--9/20
+| 3 | Differentiation: Composite, Implicit, & Inverse Functions | 10/10--10/23 |9/23--10/8
+| 5 | Differentiation: Analytical Applications           | 10/24--11/20 |10/9--10/24
+| 4 | Differentiation: Contextual Applications           | 11/21--12/10 |10/25--11/8
+| 6 | Integration                                        | 12/11--1/16  |11/11--12/5
+| 7 | Differential Equations                             | 2/9--2/28    |12/6--12/20
+| 8 | Integration: Applications                          | 3/1--3/27    |12/23--1/16
+| 9 | Parametric Equations, Polar Coordinates, & Vector-Valued Functions | N/A    |2/9--2/28
+| 10| Infinite Sequences and Series                      | N/A          |3/1--3/27
+|   | Review                                             | 3/30--4/3    |3/30--4/3
+|   | Practice Exams & Free-Response Questions           | 4/6--5/1     |4/6--5/1
+|   | AP Exam                                            | 5/5          |5/5
 
-## September{-}
+<!-- # Schedule{#sch} -->
 
-### Sept. 2{-}
+<!-- ## September{-} -->
 
-> **1.1** Introducing Calculus: Can Change Occur at an Instant?
+<!-- ### Sept. 2{-} -->
 
-> `CHA-1.A` Interpret the rate of change at an instant in terms of average rates of change over intervals containing that instant.
+<!-- > **1.1** Introducing Calculus: Can Change Occur at an Instant? -->
 
-**Homework**
-  
-  * Follow instructions in Section \@ref(khan) to join Mr. Li's designated Khan Academy classroom for AP Calculus AB.
-  * Khan Academy:
-  * Textbook:
+<!-- > `CHA-1.A` Interpret the rate of change at an instant in terms of average rates of change over intervals containing that instant. -->
+
+<!-- **Homework** -->
+
+<!--   * Follow instructions in Section \@ref(khan) to join Mr. Li's designated Khan Academy classroom for AP Calculus AB. -->
+<!--   * Khan Academy: -->
+<!--   * Textbook: -->
 
 
-### Sept. 3{-}
+<!-- ### Sept. 3{-} -->
 
-## October{-}
-## November{-}
-## December{-}
+<!-- ## October{-} -->
+<!-- ## November{-} -->
+<!-- ## December{-} -->
 

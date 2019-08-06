@@ -24,8 +24,7 @@
 \usepackage[margin=1in]{geometry}
 \usepackage{hyperref}
 \hypersetup{unicode=true,
-            pdftitle={AP® Calculus AB Syllabus},
-            pdfauthor={Mr.~Li},
+            pdftitle={AP® Calculus AB \& BC Syllabus},
             pdfborder={0 0 0},
             breaklinks=true}
 \urlstyle{same}  % don't use monospace font for urls
@@ -66,15 +65,14 @@
 
 \setlength{\droptitle}{-2em}
 
-  \title{AP\textsuperscript{®} Calculus AB Syllabus}
+  \title{AP\textsuperscript{®} Calculus AB \& BC Syllabus}
     \pretitle{\vspace{\droptitle}\centering\huge}
   \posttitle{\par}
-    \author{Mr.~Li}
-    \preauthor{\centering\large\emph}
-  \postauthor{\par}
+    \author{}
+    \preauthor{}\postauthor{}
       \predate{\centering\large\emph}
   \postdate{\par}
-    \date{2019-07-08}
+    \date{\emph{2019--2020}}
 
 \usepackage{booktabs}
 \usepackage{amsthm}
@@ -114,7 +112,9 @@
 \titleformat{\subsection}
    {\normalfont\fontsize{16}{18}\bfseries}{\thesubsection}{1em}{}
 \titleformat{\subsubsection}
-   {\normalfont\fontsize{14}{16}\bfseries\sffamily}{}{1em}{}
+   {\normalfont\fontsize{14}{16}\bfseries}{\thesubsubsection}{1em}{}
+% \titleformat{\subsubsection}
+%    {\normalfont\fontsize{14}{16}\bfseries\sffamily}{}{1em}{}
 
 \usepackage{xcolor}
 \usepackage{hyperref}
@@ -124,6 +124,8 @@
     linkcolor = {black},
     citecolor = {black},
     urlcolor = {blue},
+    citecolor = {blue},
+    anchorcolor = {blue},
     bookmarksopen = false,
     bookmarksdepth=4
 }
@@ -149,11 +151,9 @@
 
 \textbf{Teacher}: Mr.~Li
 
-\textbf{E-mail}:
+\textbf{Course Website}: \url{https://ap-calculus.github.io}
 
-\textbf{Course Website}: \url{https://scholar.netlify.com/calc-ab}
-
-\textbf{Office Hours}: TBD
+\textbf{Office Hours}: \url{https://ap-calculus.github.io/\#officehours}
 
 \begin{itemize}
 \tightlist
@@ -162,7 +162,7 @@
 \item
   If I need to reschedule office hours, I will send an e-mail to the class.
 \item
-  If you cannot make it to my office hours, please \href{https://scholar.netlify.com/\#contact}{schedule an appointment}. If none of the time slots work for you, check with me after class so we can arrange a time to meet.
+  If you cannot make it to my office hours, please \href{https://ap-calculus.github.io/\#officehours}{schedule an appointment}. If none of the time slots work for you, check with me after class so we can arrange a time to meet.
 \end{itemize}
 
 \hypertarget{course-description}{%
@@ -171,6 +171,8 @@
 \textbf{Prerequisite:} IGCSE Additional Mathematics or the equivalent of Trigonometry/Pre-Calculus
 
 AP\textsuperscript{®} Calculus AB\footnote{AP is a registered trademark of the College Board, which does not endorse and was not involved in the production of this document or any part of this website.} is a one-year course that covers the first semester of college calculus. We will cover all topics covered in the AP Calculus AB exam, including limits, continuity, differentiation, integration, and major theorems and applications of calculus.
+
+AP\textsuperscript{®} Calculus BC covers the first two semesters of college calculus. We will cover all AB topics at an accelerated pace as well as BC-only topics, including parametric equations, polar coordinates, and infinite series.
 
 \hypertarget{course-objectives}{%
 \subsection{Course Objectives}\label{course-objectives}}
@@ -202,8 +204,6 @@ Finney, R. L., Demana, F. D., Waits, B. K., \& Kennedy, D. (2012).
 \emph{Calculus: Graphical, Numerical, Algebraic (AP* Edition)}. 4th ed.
 Boston, MA: Prentice Hall.
 
-For homework assignments, we will refer to this book as \textbf{Textbook}.
-
 \hypertarget{graphing-calculator}{%
 \subsection{Graphing Calculator}\label{graphing-calculator}}
 
@@ -216,19 +216,29 @@ I will be using \textbf{TI-84 Plus} for in-class demonstrations, but any one of 
 
 \href{https://www.khanacademy.org/}{Khan Academy Website}
 
-Mr.~Li's Class Code for AP Calculus AB: PHHGRQCY
-
 Instructions:
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \item
-  \href{https://www.khanacademy.org/signup}{Create a Khan Academy account} with your school-issued e-mail address.
+  \href{https://www.khanacademy.org/signup}{Create a Khan Academy account} with your e-mail address.
 \item
-  Visit \url{https://www.khanacademy.org/join} and enter class code (PHHGRQCY). Alternatively, visit this link (\url{https://www.khanacademy.org/join/PHHGRQCY}) to join the class. Please do not join this Khan Academy classroom unless you are enrolled in Mr.~Li's Calculus AB class.
+  Visit \url{https://www.khanacademy.org/join} and enter the class code given to you in class.
 \end{enumerate}
 
 In traditional classroom formats, teachers lecture on concepts with basic examples and often do not have time to cover difficult problems. We will be using Khan Academy to flip our classroom. That is, most of your homework will involve progressing through Khan Academy modules and practice problems. In class, I will clarify concepts and delve into more challenging problems. Since I will be able to understand each student's individual progress in real time, I will adjust the format of the following day's lesson accordingly. If students are struggling in a unit, we will temporarily revert to the traditional format and review key concepts in class. In cases where students are all on track, we will have more time to engage in harder and nuanced problems as a class and in group work. In other units in which students' progress varies widely, I may use class time for individualized instruction. Based on your feedback and depending on the unit, we will make adjustments along the way.
+
+\hypertarget{ap-classroom}{%
+\subsection{AP Classroom}\label{ap-classroom}}
+
+Visit \url{https://collegeboard.org/joinapclass} for instructions on joining the AP class section for this class.
+
+\begin{itemize}
+\item
+  Log onto \url{https://myap.collegeboard.org} with your College Board account.
+\item
+  Enter the join code that you will receive in class.
+\end{itemize}
 
 \hypertarget{recommended-reference}{%
 \subsection{Recommended Reference}\label{recommended-reference}}
@@ -238,21 +248,6 @@ Calculus}. 4th ed.~Hauppauge, NY: Barron's Educational Series,
 Inc.
 
 If you would like more practice and preparation for the AP exam, the text above is an excellent reference. However, you are not required to purchase this text.
-
-\hypertarget{other-resource-links}{%
-\subsection{Other Resource Links}\label{other-resource-links}}
-
-\href{https://apcentral.collegeboard.org/courses/ap-calculus-ab/course}{College Board: AP Calculus AB}
-
-\begin{itemize}
-\tightlist
-\item
-  \href{https://apcentral.collegeboard.org/courses/ap-calculus-ab/exam/past-exam-questions}{Past Free Response Questions}
-\item
-  AP Question Bank (will be released by College Board on August 1)
-\end{itemize}
-
-\href{http://tutorial.math.lamar.edu/Classes/CalcI/CalcI.aspx}{Paul's Online Math Notes (Calculus I)}
 
 \hypertarget{ap-exam}{%
 \section{AP Exam}\label{ap-exam}}
@@ -317,28 +312,44 @@ Final grades for each semester will be calculated as follows:
 \hypertarget{course-exams}{%
 \subsection{Course Exams}\label{course-exams}}
 
-Each semester, the math department will administer two monthly exams, a midterm, and a final exam. Once the exam dates are finalized, they will be listed in this section.
+Each semester, the math department will administer two monthly exams, a midterm, and a final exam. Once the exam dates are finalized, they will be listed in the \href{https://ap-calculus.github.io/calendar/2019-2020.html}{Calendar} section of the course website.
 
 \hypertarget{homework}{%
 \subsection{Homework}\label{homework}}
 
-Homework assignments will be listed in the \protect\hyperlink{sch}{Schedule} section under the date that they are assigned. Unless otherwise stated, assignments are due the following school day.
+Homework assignment for Calculus AB and BC will be listed in the \href{https://ap-calculus.github.io/ab}{AB Schedule} and \href{https://ap-calculus.github.io/bc}{AB Schedule} sections of the course website, respectively. Unless otherwise stated, assignments are due the following school day.
+
+The schedules have three main assignment columns:
+
+\hypertarget{khan-academy}{%
+\subsubsection{Khan Academy}\label{khan-academy}}
 
 Since I can track your progress on Khan Academy, I will not ask you to turn in assignments from Khan Academy. However, I highly recommend that you work on Khan Academy questions on paper and keep your work organized for exam review.
 
-For textbook questions, I expect the following:
+\hypertarget{other-homework}{%
+\subsubsection{Other Homework}\label{other-homework}}
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
+Other homework may include Khan Academy quizzes, AP Question Bank problems, AP Progress Check questions, and textbook problems.
+
+For all non-Khan Academy assignments in this column, I expect the following:
+
+\begin{itemize}
 \item
   Write your name, date, and period on the top-right corner of the first page. For subsequent pages, place just your name (without date/period) on the top-right corner.
 \item
   On the first page, write down the assignment as the title. Example: Section 1.1 (pages 10-11, \#1-36 odd)
 \item
   For short questions, copy down the entire problem. For longer questions, outline the problem with enough information so that you can understand the question without referring back to the textbook. The point of copying down short problems and outlining longer problems is to allow you to reference your homework problems easily for review and exam preparation.
-\end{enumerate}
+\end{itemize}
 
-You will receive full credit for homework as long as you write your own homework solutions and make complete corrections with a pen when we go over solutions in class.
+Any of the non-Khan Academy items under the ``Other Homework'' column may be collected on the following school day. You will receive full credit for all collected homework as long as you write your own homework solutions and make complete corrections with a pen when we go over solutions in class.
+
+\hypertarget{classwork}{%
+\subsubsection{Classwork}\label{classwork}}
+
+After you finish the required homework assignments in the ``Khan Academy'' and ``Other Homework'' columns, I highly recommend that you look through the problems listed in the ``Classwork (next day)'' column and work through as many of them as possible. These are the problems that I will focus on class the following day, so attempting these problems beforehand will give you time to absorb the material and ask questions in class.
+
+While classwork will not be collected for grading, working through these problems in class will constitute the majority of your participation grade.
 
 \hypertarget{participation}{%
 \subsection{Participation}\label{participation}}
@@ -373,85 +384,157 @@ While I highly encourage students to help each other in this course, please obse
   At the end of collaboration, you should still write your own homework solutions from start to finish. Do not short-change your own learning process by copying answers.
 \end{itemize}
 
+\textbf{Exception to the Collaboration Policy:} Please work independently on the AP progress check multiple-choice questions, which you will have to submit online via AP Classroom at the end of each unit. This is an opportunity for me to determine how much each student has learned at the end of each unit.
+
 \hypertarget{curricular-requirements}{%
 \section{Curricular Requirements}\label{curricular-requirements}}
 
 \href{https://apcentral.collegeboard.org/pdf/ap-calculus-ab-bc-course-and-exam-description-0.pdf?course=ap-calculus-ab}{College Board AP Calculus AB and BC Course and Exam Description}
 
-Page 17: Exam weighting of each unit for multiple-choice exam
-Pages 20--23: Topics for each unit
-
 \begin{itemize}
-\tightlist
 \item
-  In the \protect\hyperlink{sch}{Schedule} section, I will use block quotes to denote the topic we are covering along with the course objectives, which the College Board broadly classifies into \texttt{CHA} (Change), \texttt{LIM} (Limits), and \texttt{FUN} (Analysis of Functions).
+  Page 17: Exam weighting of each unit for multiple-choice exam
+\item
+  Pages 20--23: Topics for each unit
 \end{itemize}
 
-\hypertarget{timeline}{%
-\section{Timeline}\label{timeline}}
+\newpage
 
-\begin{longtable}[]{@{}llr@{}}
+\hypertarget{timeline-tentative-dates}{%
+\section{Timeline (Tentative Dates)}\label{timeline-tentative-dates}}
+
+\begin{longtable}[]{@{}llrr@{}}
 \toprule
-& Topic & Days\tabularnewline
+\begin{minipage}[b]{0.06\columnwidth}\raggedright
+Unit\strut
+\end{minipage} & \begin{minipage}[b]{0.56\columnwidth}\raggedright
+Topic\strut
+\end{minipage} & \begin{minipage}[b]{0.16\columnwidth}\raggedleft
+AB\strut
+\end{minipage} & \begin{minipage}[b]{0.11\columnwidth}\raggedleft
+BC\strut
+\end{minipage}\tabularnewline
 \midrule
 \endhead
-September & Limits \& Continuity & 23\tabularnewline
-October & Differentiation: Basics & 14\tabularnewline
-November & Differentiation: Composite, Implicit, \& Inverse Functions & 9\tabularnewline
-December & Differentiation: Contextual Applications & 11\tabularnewline
-December & Differentiation: Analytical Applications & 16\tabularnewline
-Jan/Feb & Integration & 20\tabularnewline
-March & Differential Equations & 9\tabularnewline
-Mar/Apr & Integration: Applications & 20\tabularnewline
+\begin{minipage}[t]{0.06\columnwidth}\raggedright
+1\strut
+\end{minipage} & \begin{minipage}[t]{0.56\columnwidth}\raggedright
+Limits \& Continuity\strut
+\end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\raggedleft
+9/2--9/18\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft
+9/2--9/13\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.06\columnwidth}\raggedright
+2\strut
+\end{minipage} & \begin{minipage}[t]{0.56\columnwidth}\raggedright
+Differentiation: Basics\strut
+\end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\raggedleft
+9/19--9/30\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft
+9/16--9/20\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.06\columnwidth}\raggedright
+3\strut
+\end{minipage} & \begin{minipage}[t]{0.56\columnwidth}\raggedright
+Differentiation: Composite, Implicit, \& Inverse Functions\strut
+\end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\raggedleft
+10/10--10/23\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft
+9/23--10/8\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.06\columnwidth}\raggedright
+5\strut
+\end{minipage} & \begin{minipage}[t]{0.56\columnwidth}\raggedright
+Differentiation: Analytical Applications\strut
+\end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\raggedleft
+10/24--11/20\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft
+10/9--10/24\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.06\columnwidth}\raggedright
+4\strut
+\end{minipage} & \begin{minipage}[t]{0.56\columnwidth}\raggedright
+Differentiation: Contextual Applications\strut
+\end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\raggedleft
+11/21--12/10\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft
+10/25--11/8\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.06\columnwidth}\raggedright
+6\strut
+\end{minipage} & \begin{minipage}[t]{0.56\columnwidth}\raggedright
+Integration\strut
+\end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\raggedleft
+12/11--1/16\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft
+11/11--12/5\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.06\columnwidth}\raggedright
+7\strut
+\end{minipage} & \begin{minipage}[t]{0.56\columnwidth}\raggedright
+Differential Equations\strut
+\end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\raggedleft
+2/9--2/28\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft
+12/6--12/20\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.06\columnwidth}\raggedright
+8\strut
+\end{minipage} & \begin{minipage}[t]{0.56\columnwidth}\raggedright
+Integration: Applications\strut
+\end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\raggedleft
+3/1--3/27\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft
+12/23--1/16\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.06\columnwidth}\raggedright
+9\strut
+\end{minipage} & \begin{minipage}[t]{0.56\columnwidth}\raggedright
+Parametric Equations, Polar Coordinates, \& Vector-Valued Functions\strut
+\end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\raggedleft
+N/A\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft
+2/9--2/28\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.06\columnwidth}\raggedright
+10\strut
+\end{minipage} & \begin{minipage}[t]{0.56\columnwidth}\raggedright
+Infinite Sequences and Series\strut
+\end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\raggedleft
+N/A\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft
+3/1--3/27\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.06\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.56\columnwidth}\raggedright
+Review\strut
+\end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\raggedleft
+3/30--4/3\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft
+3/30--4/3\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.06\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.56\columnwidth}\raggedright
+Practice Exams \& Free-Response Questions\strut
+\end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\raggedleft
+4/6--5/1\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft
+4/6--5/1\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.06\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.56\columnwidth}\raggedright
+AP Exam\strut
+\end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\raggedleft
+5/5\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedleft
+5/5\strut
+\end{minipage}\tabularnewline
 \bottomrule
 \end{longtable}
-
-\hypertarget{sch}{%
-\section{Schedule}\label{sch}}
-
-\hypertarget{september}{%
-\subsection*{September}\label{september}}
-\addcontentsline{toc}{subsection}{September}
-
-\hypertarget{sept.-2}{%
-\subsubsection*{Sept.~2}\label{sept.-2}}
-\addcontentsline{toc}{subsubsection}{Sept.~2}
-
-\begin{quote}
-\textbf{1.1} Introducing Calculus: Can Change Occur at an Instant?
-\end{quote}
-
-\begin{quote}
-\texttt{CHA-1.A} Interpret the rate of change at an instant in terms of average rates of change over intervals containing that instant.
-\end{quote}
-
-\textbf{Homework}
-
-\begin{itemize}
-\tightlist
-\item
-  Follow instructions in Section \ref{khan} to join Mr.~Li's designated Khan Academy classroom for AP Calculus AB.
-\item
-  Khan Academy:
-\item
-  Textbook:
-\end{itemize}
-
-\hypertarget{sept.-3}{%
-\subsubsection*{Sept.~3}\label{sept.-3}}
-\addcontentsline{toc}{subsubsection}{Sept.~3}
-
-\hypertarget{october}{%
-\subsection*{October}\label{october}}
-\addcontentsline{toc}{subsection}{October}
-
-\hypertarget{november}{%
-\subsection*{November}\label{november}}
-\addcontentsline{toc}{subsection}{November}
-
-\hypertarget{december}{%
-\subsection*{December}\label{december}}
-\addcontentsline{toc}{subsection}{December}
 
 %manually set hanging indents for references
 %\pdfbookmark[0]{\indexname}{Index}
