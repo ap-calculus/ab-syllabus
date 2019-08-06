@@ -1,9 +1,15 @@
 --- 
 title: "AP^&reg;^ Calculus AB & BC Syllabus"
 author: ""
-date: \emph{2019--2020}
+date: "2019--2020"
 site: bookdown::bookdown_site
-output: bookdown::gitbook
+output: 
+  bookdown::gitbook:
+    toc_depth: 2
+    config:
+      sharing: null
+        # facebook: false
+        # twitter: false
 documentclass: article
 fontsize: 12pt
 #toc: no
@@ -50,9 +56,15 @@ BibOptions(bib.style = "authoryear", style="markdown", first.inits=FALSE, max.na
 library(bibtex)
 biblio <- bibtex::read.bib(file="book.bib")
 ```
-# Course 
+# Course Description
 
-## Contact
+**Prerequisite:** IGCSE Additional Mathematics or Trigonometry/Pre-Calculus
+
+AP^&reg;^ Calculus AB is a one-year course that covers the first semester of college calculus. We will cover all topics covered in the AP Calculus AB exam, including limits, continuity, differentiation, integration, and major theorems and applications of calculus.
+
+AP^&reg;^ Calculus BC covers the first two semesters of college calculus. We will cover all AB topics at an accelerated pace as well as BC-only topics, including parametric equations, polar coordinates, and infinite series.
+
+# Contact Information
 
 **Teacher**: Mr. Li
 
@@ -63,18 +75,8 @@ biblio <- bibtex::read.bib(file="book.bib")
   * You are welcome to stop by anytime during scheduled office hours without an appointment.
   * If I need to reschedule office hours, I will send an e-mail to the class.
   * If you cannot make it to my office hours, please [schedule an appointment](https://ap-calculus.github.io/#officehours){target="_blank"}. If none of the time slots work for you, check with me after class so we can arrange a time to meet.
-
-
-
-## Course Description
-
-**Prerequisite:** IGCSE Additional Mathematics or the equivalent of Trigonometry/Pre-Calculus
-
-AP^&reg;^ Calculus AB^[AP is a registered trademark of the College Board, which does not endorse and was not involved in the production of this document or any part of this website.] is a one-year course that covers the first semester of college calculus. We will cover all topics covered in the AP Calculus AB exam, including limits, continuity, differentiation, integration, and major theorems and applications of calculus.
-
-AP^&reg;^ Calculus BC covers the first two semesters of college calculus. We will cover all AB topics at an accelerated pace as well as BC-only topics, including parametric equations, polar coordinates, and infinite series.
-
-## Course Objectives
+  
+# Course Objectives
 
 1. Develop mastery in univariate calculus concepts.
 2. Apply differentiation and integration to solve real-world problems.
